@@ -7,4 +7,8 @@ comes with many features! troll anyone stupid enough to authorize it
 - pulling webhooks
 - sending messages
 - making channels
+=============================
+
 use at your own risk!
+
+---------------*fetch*---------------
