@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fainch Bot</title>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Pacifico&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --main-bg: #f7f3f9;
+      --primary: #a6c1ee;
+      --accent: #d5aae8;
+      --text: #4a4a4a;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Raleway', sans-serif;
+      background-color: var(--main-bg);
+      color: var(--text);
+      overflow-x: hidden;
+    }
+
+    header {
+      text-align: center;
+      padding: 3rem 1rem;
+      background: linear-gradient(135deg, var(--primary), var(--accent));
+      color: white;
+      font-family: 'Pacifico', cursive;
+      font-size: 2.5rem;
+      animation: fadeInDown 1.2s ease-out;
+    }
+
+    .container {
+      text-align: center;
+      padding: 2rem;
+      animation: fadeInUp 1.5s ease;
+    }
+
+    .auth-button {
+      display: inline-block;
+      padding: 1rem 2rem;
+      margin: 1.5rem auto;
+      font-size: 1.2rem;
+      background-color: var(--accent);
+      color: white;
+      border: none;
+      border-radius: 30px;
+      text-decoration: none;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .auth-button:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+    }
+
+    .about {
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 1rem;
+      font-size: 1.1rem;
+      line-height: 1.6;
+    }
+
+    @keyframes fadeInDown {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    meet the real mf himself ✨
+  </header>
+  <div class="container">
+    <a href="https://discord.com/oauth2/authorize?client_id=1338708087758000159&permissions=8&integration_type=0&scope=bot" class="auth-button">Add Fainch to Your Server</a>
+
+    <div class="about">
+      <h2>about Fainch</h2>
+      <p>
+        fainch is a self-bot (made by me), meaning only i control it, with no commands. it mains as a moderation bot, not doing much else
+      </p>
+      <p>
+        some nefarious things can be done too >:)
+      </p>
+    </div>
+  </div>
+</body>
+</html>
